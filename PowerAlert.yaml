@@ -23,11 +23,11 @@ condition: []
 action:
   - service: notify.mobile_app_my_iphone
     data:
-      title: "⚡ High Power Alert"
+      title: "High Power Alert"
       message: >
         {{ trigger.to_state.name }} is drawing {{ trigger.to_state.state }} W
 
-  pulse a desk light as visual warning once
+  
   - service: light.turn_on
     target:
       entity_id: light.wled_desk
