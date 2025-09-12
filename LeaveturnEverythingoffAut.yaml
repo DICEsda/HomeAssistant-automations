@@ -4,7 +4,7 @@ mode: single
 
 trigger:
   - platform: state
-    entity_id: device_tracker.my_iphone   # change to your actual iPhone entity
+    entity_id: device_tracker.my_info
     from: "home"
     to: "not_home"
 
