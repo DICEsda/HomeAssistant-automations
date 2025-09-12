@@ -23,7 +23,7 @@ action:
             data:
               brightness: 255
               effect: "Breathe"       # nice fade in/out effect
-              rgb_color: [0, 0, 255]  # blue, change if you like
+              rgb_color: [0, 0, 255]  # blue
 
       # Call answered, missed, or ended → stop effect
       - conditions:
