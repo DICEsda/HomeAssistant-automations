@@ -25,7 +25,7 @@ scene:
       switch.tv_plug: off
       light.tradfri_livingroom: off
       light.tradfri_hall: off
-      light.tradfri_desk: off          # desk Zigbee light, if you have one
+      light.tradfri_desk: off          
       light.wled_desk: off             # fully off at night
       light.wled_bedroom:
         state: on
